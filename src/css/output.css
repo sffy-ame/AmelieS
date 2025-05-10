@@ -2065,3 +2065,262 @@
   syntax: "*";
   inherits: false;
 }
+
+.quiz-page {
+  background: linear-gradient(to right, #FFC0CB, #FFD1DC);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  position: relative;
+}
+.quiz-container {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 400px;
+}
+.quiz-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ff69b4;
+}
+.question {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.answer-button {
+  padding: 12px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  background: #ffb6c1;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+.answer-button:hover {
+  transform: scale(1.1);
+  background: #ff69b4;
+}
+.stats-button {
+  margin-top: 20px;
+  padding: 12px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  background: #ffb6c1;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+.stats-button:hover {
+  transform: scale(1.1);
+  background: #ff69b4;
+}
+.stats-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ff69b4;
+  margin-top: 15px;
+  display: none;
+}
+.return-home {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  background: #ffb6c1;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease;
+  border: 3px solid white;
+}
+.return-home:hover {
+  transform: scale(1.1);
+  background: #ff69b4;
+}
+
+
+
+.index-page {
+  background: linear-gradient(to right, #FFC0CB, #FFD1DC);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.accueil-page .features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  padding: 60px 20px;
+  text-align: center;
+  background: linear-gradient(to right, #ffe0e6, #ffcad4);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.accueil-page .feature-item {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+.accueil-page .feature-item:hover {
+  transform: translateY(-10px);
+  background: #ffb6c1;
+}
+.accueil-page .feature-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ff69b4;
+}
+.accueil-page .feature-text {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.calculator-page {
+  background: linear-gradient(to right, #FFC0CB, #FFD1DC);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  position: relative;
+}
+.calculator-container {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.calculator-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ff69b4;
+}
+#display {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.5rem;
+  text-align: right;
+  border: none;
+  border-radius: 10px;
+  background: #ffe4e9;
+  margin-bottom: 15px;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.equal-btn {
+  grid-column: span 4; /* "="" prend toute la largeur */
+  font-size: 1.5rem;
+}
+button {
+  padding: 15px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 10px;
+  background: #ffb6c1;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+button:hover {
+  transform: scale(1.1);
+  background: #ff69b4;
+}
+.return-home {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  background: #ffb6c1;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease;
+  border: 3px solid white;
+}
+.return-home:hover {
+  transform: scale(1.1);
+  background: #ff69b4;
+}
+
+.contact-page {
+  background: linear-gradient(to right, #FFC0CB, #FFD1DC);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.contact-container {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 400px;
+}
+.contact-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ff69b4;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ff69b4;
+  text-align: left;
+}
+input, textarea {
+  padding: 10px;
+  border: 2px solid #ffb6c1;
+  border-radius: 10px;
+  font-size: 1rem;
+  background: #ffe4e9;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+input:focus, textarea:focus {
+  border: 2px solid #ff69b4;
+  box-shadow: 0px 4px 10px rgba(255, 105, 180, 0.5);
+}
+button {
+  margin-top: 10px;
+  padding: 12px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  background: #ffb6c1;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+button:hover {
+  transform: scale(1.1);
+  background: #ff69b4;
+}

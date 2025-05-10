@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Ludique 🌸</title>
+    <link rel="stylesheet" href="./css/output.css">
+</head>
+<body class="quiz-page">
+    <button onclick="location.href='index.html'" class="return-home">⬅ Retour à l'accueil</button>
+    <script src="../index.js"></script>
+    <div class="quiz-container">
+        <h1 class="quiz-title">🎉 Quiz Interactif</h1>
+        <p class="question" id="question-text">Voici une question...</p>
+
+        <div class="buttons" id="answer-buttons">
+            <button class="answer-button" onclick="checkAnswer(true)">Réponse 1</button>
+            <button class="answer-button" onclick="checkAnswer(false)">Réponse 2</button>
+            <button class="answer-button" onclick="checkAnswer(false)">Réponse 3</button>
+            <button class="answer-button" onclick="checkAnswer(false)">Réponse 4</button>
+        </div>
+
+        <button onclick="showStats()" class="stats-button">📊 Voir mes statistiques</button>
+        <p id="stats-result" class="stats-text"></p>
+        <button onclick="bruteForceQuiz()" class="brute-button">🔓 Tester toutes les réponses</button>
+        <p id="brute-result" class="brute-text"></p>
+
+    </div>
+
+
+</body>
+</html>

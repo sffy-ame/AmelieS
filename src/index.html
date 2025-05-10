@@ -1,14 +1,40 @@
 <!doctype html>
 <html lang="fr">
 <head>
+  
   <meta charset="utf-8">
-  <title>Titre de la page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accueil</title>
+
+  <link rel="stylesheet" href="./css/output.css">
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.0.0/dist/full.css" rel="stylesheet" type="text/css" />
+
 </head>
-<body>
-  <h1>Hello world !</h1>
-  <!-- Un commentaire -->
-  <p>Ceci est un paragraphe, contenant un lien hypertexte vers une autre page
-    <a href="https://www.google.com" target="_blank">Page de google</a>
-  </p>
+<body class="index-page">
+
+  <section class="accueil-page">
+    <div class="feature-item" onclick="window.location.href='quiz.html'">
+      <div class="feature-content">
+        <h2 class="feature-title">📖 Un Quiz Ludique</h2>
+        <p class="feature-text">Testez vos connaissances avec des questions variées et un design interactif.</p>
+      </div>
+    </div>
+
+    <div class="feature-item" onclick="window.location.href='contact.html'">
+      <div class="feature-content"></div>
+        <h2 class="feature-title">📩 Contact Facile</h2>
+        <p class="feature-text">Besoin d’aide ou envie d’échanger ? Remplissez notre formulaire de contact.</p>
+      </div>
+    </div>
+    
+    <div class="feature-item" onclick="window.location.href='calculatrice.html'">
+      <div class="feature-content"></div>
+        <h2 class="feature-title">🧮 Une Calculatrice Rapide</h2>
+        <p class="feature-text">Faites vos calculs instantanément avec notre calculatrice intégrée.</p>
+      </div>
+    </div>
+
+  </section>
 </body>
 </html>
+
