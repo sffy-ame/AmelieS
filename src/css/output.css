@@ -2081,7 +2081,7 @@
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   text-align: center;
-  width: 400px;
+  width: 700px;
 }
 .quiz-title {
   font-size: 2rem;
@@ -2324,3 +2324,130 @@ button:hover {
   transform: scale(1.1);
   background: #ff69b4;
 }
+
+.main-title {
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(to right, #ffb6c1, #ff69b4);
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    color: white;
+    margin-bottom: 80px;
+}
+
+.main-title h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.main-title p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.enter-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    background: #ff69b4;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background 0.3s ease;
+    margin-top: 20px;
+}
+
+.enter-button:hover {
+    transform: scale(1.1);
+    background: #ffb6c1;
+}
+
+
+.barbie-page {
+    background: linear-gradient(to right, #FFC0CB, #FFD1DC);
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.barbie-container:first-of-type {
+    margin-top: 100px; /* Augmente l’espace sous le bouton retour */
+}
+
+.barbie-container {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 800px;
+    margin-bottom: 20px;
+}
+
+
+.barbie-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff69b4;
+}
+
+.barbie-text {
+    font-size: 1.2rem;
+    color: #444;
+}
+
+.film-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.film-card h3 {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #ff69b4;
+    text-transform: uppercase;
+}
+
+
+.film-card {
+    width: 300px;
+    padding: 15px;
+    background: #ffe4e9;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.film-card:hover {
+    transform: scale(1.05);
+    background: #ffb6c1;
+}
+
+.return-home {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    background: #ffb6c1;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.return-home:hover {
+    transform: scale(1.1);
+    background: #ff69b4;
+}
+
+
+
+
