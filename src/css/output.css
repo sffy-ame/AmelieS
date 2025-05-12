@@ -2231,7 +2231,7 @@
   margin-bottom: 10px;
 }
 .equal-btn {
-  grid-column: span 4; /* "="" prend toute la largeur */
+  grid-column: span 4;
   font-size: 1.5rem;
 }
 button {
@@ -2376,7 +2376,7 @@ button:hover {
 }
 
 .barbie-container:first-of-type {
-    margin-top: 100px; /* Augmente l’espace sous le bouton retour */
+    margin-top: 100px;
 }
 
 .barbie-container {
